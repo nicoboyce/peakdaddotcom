@@ -243,6 +243,8 @@ img {
 
 #foot-img {
   margin-bottom: 0px;
+  display: inline;
+  margin-right: 0.5rem;
 }
 
 @media (max-width: 48em) {
