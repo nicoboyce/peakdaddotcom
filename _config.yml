@@ -6,15 +6,15 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
-title:            Deltastring
+title:            Peak Dad
 tagline:          'Zendesk solutions specialists'
 description:      'Boutique Zendesk solutions'
-url:              https://deltastring.com
+url:              https://peakdad.com
 baseurl:          /
 
 author:
   name:           'Nico Boyce'
-  url:            https://deltastring.com
+  url:            https://peakdad.com
 
 # paginate:         4
 
