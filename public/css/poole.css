@@ -59,7 +59,7 @@ html {
 }
 
 body {
-  color: #1C0B31;
+  color: #000000;
   background-color: #eff0ea;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lemonada", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.25;
-  color: #1C0B31;
+  color: #000000;
   text-rendering: optimizeLegibility;
 }
 h1 {
