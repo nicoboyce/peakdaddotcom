@@ -3,6 +3,19 @@ layout: page
 title: Who is Nico Boyce?
 ---
 
+# Nico Beastie Boyce, offline creator.
+
+Nico Beastie Boyce is an engineer, artist, photographer, and musician.
+
+He cut his teeth playing slow-and-low jams at parties in old Cornish farm buildings with his millennial long-haired skate punk trash buddies in pre-YouTube times.
+
+![Nico Beastie Boyce.](/public/img/yellow.jpeg)
+*Nico Beastie Boyce, on the move.*
+
+Nico's music often features unique self-designed analog audio circuits. His primary instrument is the electric upright bass. He records, builds, and paints at his home studio on the edge on Thruxton circuit, expressing what he describes as a "cultural technological remorse" as well as operating his CX consulting business [Deltastring](https://deltastring.com). Professionally, Nico Boyce is London's top Zendesk consultant.
+
+Nico's musical heroes include Scott Reeder, Stephen O'Malley, JPEGmafia, Al Cisneros, Earl Sweatshirt, Mr Oizo, Kool (but not so much his gang) and of course MCA.
+
 # Nico Boyce is the leader of Deltastring Ltd.
 
 Nico has been building and hacking software since the mid nineties, starting out with a scavenged Zenith SupersPort and a Nokia 2110. He studied photonics at the University of Southampton before taking a hard left with his career and working in the world of bars and restaurants for a decade.
@@ -22,8 +35,6 @@ Zendesk fell at the intersection between Nico's work passions: using data to gui
 ![Nico Boyce, founder of Deltastring Ltd.](/public/img/nico-office.jpeg)
 *CX consultant and Zendesk specialist Nico Boyce is the founder of Deltastring Ltd.*
 
-Deltastring Ltd also bring in other Zendesk experts for a wide range of specialisms. We work in many sectors as our work is largely industry agnostic.
-
-Send a quick [email](mailto:nico@deltastring.com) letting us know your Zendesk goals, or for a less formal Zendesk-based discussion, [connect on LinkedIn](https://www.linkedin.com/in/nicoboyce/) or message Nico on [WhatsApp](https://wa.me/447596476097).
+Deltastring Ltd also bring in other Zendesk experts for a wide range of specialisms. We work in many sectors as our work is largely industry agnostic. see [Deltastring.com](https://deltastring.com) to find out more.
 
 ![Deltastring icon](/public/img/delta.png)
