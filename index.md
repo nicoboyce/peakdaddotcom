@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: The Peak Dad blog
 ---
 
 <div class="posts">
