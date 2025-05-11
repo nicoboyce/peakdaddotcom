@@ -13,7 +13,7 @@ url:              https://peakdad.com
 baseurl:          /
 
 author:
-  name:           'Nico Boyce'
+  name:           'Peak Dad'
   url:            https://peakdad.com
 
 # paginate:         4
@@ -23,8 +23,6 @@ author:
 #  - jekyll-gist
 
 # Custom vars
-version:          24.05
 
 excerpt_separator: "<!--excerpt-end-->"
 # github:
-#   repo:           https://github.com/poole/hyde

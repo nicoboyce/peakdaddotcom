@@ -1,19 +1,16 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+      <h1>
         <a href="{{ site.baseurl }}">
-          <img src="/public/img/pdside.png" alt="{{ site.title }}" style="width: 100%;" />
+          {{ site.title }}
         </a>
-      <p class="lead"><a>{{ site.description }}</a></p>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
     </div>
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
@@ -23,10 +20,6 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-    </nav>
-
-    <span class="sidebar-nav-item"><a href="mailto:hello@nicoboyce.com">Email</a> | <a href="https://wa.me/447596476097">WhatsApp</a> | <a href="https://www.instagram.com/peakdaddotcom/">Instagram</a><br />
-      <a href="https://nicoboyce.com">NicoBoyce.com</a> | <a href="https://deltastring.com">Deltastring.com</a></span>
 
     <span class="sidebar-nav-item no-mob">{% include info.html %}</span>
   </div>

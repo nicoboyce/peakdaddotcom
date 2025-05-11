@@ -1,39 +1,46 @@
-/*
- *  __                  __
- * /\ \                /\ \
- * \ \ \___   __  __   \_\ \     __
- *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
- *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
- *    \ \_\ \_\/`____ \ \___,_\ \____\
- *     \/_/\/_/`/___/> \/__,_ /\/____/
- *                /\___/
- *                \/__/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/hyde.
- */
 
 
-/*
- * Contents
- *
- * Global resets
- * Sidebar
- * Container
- * Reverse layout
- * Themes
- */
+@font-face {
+  font-family: 'Atkinson-Hyperlegible';
+  src: url('/public/fonts/ttf/Atkinson-Hyperlegible-Regular-102.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Atkinson-Hyperlegible';
+  src: url('/public/fonts/ttf/Atkinson-Hyperlegible-Bold-102.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
+@font-face {
+  font-family: 'Atkinson-Hyperlegible';
+  src: url('/public/fonts/ttf/Atkinson-Hyperlegible-Italic-102.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Atkinson-Hyperlegible';
+  src: url('/public/fonts/ttf/Atkinson-Hyperlegible-BoldItalic-102.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
 
 html {
-  font-family: "Karma", Helvetica, Arial, sans-serif;
+  font-family: 'Atkinson-Hyperlegible', sans-serif;
 }
+
+p {
+  content-visibility: auto;
+}
+
+div {
+  content-visibility: auto;
+}
+
+
 @media (min-width: 48em) {
   html {
     font-size: 16px;
@@ -45,6 +52,9 @@ html {
   }
 }
 
+.info {
+  line-height: 1.1;
+}
 
 /*
  * Sidebar
@@ -56,7 +66,7 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: #000000;
+  color: #1C0B31;
   background-color: #202020;
 }
 @media (min-width: 48em) {
@@ -68,24 +78,29 @@ html {
     width: 18rem;
     text-align: left;
   }
+  .marg {
+    margin-bottom: 0rem;
+  }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #000000;
+  color: #1C0B31;
 }
 @media (min-width: 64em) {
   .lead {
-    font-size: 1.37rem;
+    font-size: 1.32rem;
   }
 }
+
+
 
 /* About section */
 .sidebar-about h1 {
   margin-bottom: .5rem;
   color: #eff0ea;
   margin-top: 0;
-  font-family: "Rokkitt", serif;
+  font-family: 'Atkinson-Hyperlegible', sans-serif;
   font-size: 2.7rem;
 }
 @media (min-width: 64em) {
@@ -95,6 +110,10 @@ html {
 }
 
 /* Sidebar nav */
+.active {
+  font-weight: bold;
+}
+
 .sidebar-nav {
   margin-bottom: 1rem;
 }
@@ -217,11 +236,11 @@ a.sidebar-nav-item:focus {
 
 /* Green */
 .theme-base-0b .sidebar {
-  background-color: #426942;
+  background-color: #90a959;
 }
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
-  color: #426942;
+  color: #90a959;
 }
 
 /* Cyan */
@@ -277,5 +296,15 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .on-mob {
     display: none;
+  }
+}
+
+p img {
+  width: 100%;
+}
+
+@media (min-width: 48em) {
+  p img {
+    width: 600px;
   }
 }
